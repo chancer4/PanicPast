@@ -11,7 +11,7 @@ panicPast.controller('panicCtrl', function ($scope, $http){
 
 		})
 	}
-
+	$scope.getSets();
 
 });
 
