@@ -1,4 +1,6 @@
 
+
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -11,9 +13,14 @@
         <li class="active"><a href="#">Shows <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Stats</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="register.php">Login/Register</a></li>
-      </ul>
+      <?php 
+        if(isset($_SESSION['uid'])){
+          print '<ul class="nav navbar-nav navbar-right"><li>Welcome Back, ' . $_SESSION['name'] . '</li><li><a href="logout.php">Logout</a></li></ul>';
+        }else{
+          print '<ul class="nav navbar-nav navbar-right"><li><a href="register.php">Register</a></li></ul>';
+          print '<ul class="nav navbar-nav navbar-right"><li><a href="login.php">Login</a></li></ul>';
+        }
+      ?>
     </div>
   </div>
 </nav>
