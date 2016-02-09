@@ -56,7 +56,7 @@
     
     ksort($counterArray);
 
-    print "<pre>";
+    
     // print_r($master_array);
     print_r(json_encode($counterArray));
 

@@ -13,7 +13,7 @@
             $master[] = $phparray->setlists->setlist;
             
         }
-        
-    print_r($master);
+
+    print_r(json_encode($master));
 
 	?>
