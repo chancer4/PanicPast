@@ -11,7 +11,9 @@
             $jsonResult = ($result);
             $phparray = json_decode($jsonResult);
             $master[] = $phparray->setlists->setlist;
+            
         }
-    print_r(json_encode($master));
+        
+    print_r($master);
 
 	?>
