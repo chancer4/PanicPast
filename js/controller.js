@@ -1,5 +1,5 @@
 var panicPast = angular.module('panicPast', [])
-var url = "http://local-panicpast.com/setlist.php";
+var url = "setlist.php";
 var userSetsArray = [];
 
 
@@ -52,7 +52,7 @@ panicPast.controller('panicCtrl', function ($scope, $http){
 
 	$scope.userSongs = function(){
 		
-		$http.get("http://local-panicpast.com/songs.php").success( function (songs){
+		$http.get("songs.php").success( function (songs){
 			console.log(songs);
 			$scope.songs = songs;
 		})
