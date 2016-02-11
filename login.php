@@ -1,4 +1,6 @@
 <?php
+	
+	header('Access-Control-Allow-Origin: *');
 	include('inc/db_connect.php');
 	$_SESSION['page'] = 'login';
 	if(isset($_GET['error'])){

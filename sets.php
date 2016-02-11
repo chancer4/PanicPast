@@ -1,5 +1,5 @@
 <?php 
-
+	header('Access-Control-Allow-Origin: *');
 	include('inc/db_connect.php');
 	$data = file_get_contents('php://input');
 	// print $_SESSION['uid'];

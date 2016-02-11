@@ -1,4 +1,5 @@
 <?php
+    header('Access-Control-Allow-Origin: *');
     include('inc/db_connect.php');
     $_SESSION['name'] = $_POST['name'];
     $_SESSION['email'] = $_POST['email'];

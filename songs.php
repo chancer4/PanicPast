@@ -1,5 +1,5 @@
 <?php 
-
+    header('Access-Control-Allow-Origin: *');
 	include('inc/db_connect.php');
     $setsDB = DB::query('SELECT * from shows where uid ='.$_SESSION['uid']);
 
