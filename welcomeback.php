@@ -8,7 +8,7 @@
 		</div>
 
 		<div class="background">
-			<img src="assets/images/panic.jpg">
+			<img src="/assets/images/panic.jpg">
 		</div>
 			
 	</div>

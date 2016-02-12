@@ -9,7 +9,7 @@
 	if(isset($_SESSION['name'])){
 		include('showsCheck.php');
 	}else{
-
+		print '<h2>You need to be logged in to do this!</h2>'
 	}
 ?>
 
