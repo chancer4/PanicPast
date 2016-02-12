@@ -10,8 +10,15 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="shows.php">Shows <span class="sr-only">(current)</span></a></li>
-        <li><a href="stats.php">Stats</a></li>
+      <?php
+        if(isset($_SESSION['uid'])){
+          print '<li><a href="shows.php">Shows <span class="sr-only">(current)</span></a></li>';
+          print '<li><a href="stats.php">Stats</a></li>';
+        }else{
+          print '<li class="disabled"><a href="shows.php">Shows <span class="sr-only">(current)</span></a></li>';
+          print '<li class="disabled"><a href="stats.php">Stats</a></li>';
+        }
+      ?>
       </ul>
       <?php 
         if(isset($_SESSION['uid'])){

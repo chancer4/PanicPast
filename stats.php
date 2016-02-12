@@ -7,8 +7,16 @@
 
 	<div class="container Stats" >
 		<div class="row">
-			<div id="stats" class="col-md-6 col-md-offset-3" ng-repeat="(song, number) in songs track by $index">
-				{{song}} - {{number}}
+		<div class="col-md-4 col-md-offset-4" id="nameText">Song</div>
+		<div class="col-md-2" id="timesPlayed">Times Played</div>
+		<div class="col-md-6 col-md-offset-4" id="hrTag">
+			<hr>
+		</div>
+		</div>
+
+		<div class="row">
+			<div id="stats" ng-repeat="(song, number) in songs track by $index">
+				<span id="songName" class="col-md-4 col-md-offset-4">{{song}} -</span> <span id="songCount" class="col-md-2">{{number}}</span>
 				
 			</div>
 				
