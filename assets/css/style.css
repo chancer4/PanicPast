@@ -248,24 +248,26 @@ body .container .row.A .showRepeat {
   margin: 0.5% 0% 0.5% 0%;
 }
 /* line 38, ../compass/sass/style.scss */
-body .container .row.A .showRepeat input {
+body .container .row.A .showRepeat #showCheckbox {
   margin-left: -32%;
+  position: relative;
+  z-index: 100;
 }
-/* line 47, ../compass/sass/style.scss */
+/* line 49, ../compass/sass/style.scss */
 body nav {
   position: relative;
 }
-/* line 51, ../compass/sass/style.scss */
+/* line 53, ../compass/sass/style.scss */
 body .item {
   position: relative;
 }
-/* line 53, ../compass/sass/style.scss */
+/* line 55, ../compass/sass/style.scss */
 body .item img {
   width: 100%;
   height: 100vh;
   display: block;
 }
-/* line 59, ../compass/sass/style.scss */
+/* line 61, ../compass/sass/style.scss */
 body .item .background {
   content: " ";
   z-index: 10;
@@ -276,7 +278,7 @@ body .item .background {
   left: 0;
   right: 0;
 }
-/* line 75, ../compass/sass/style.scss */
+/* line 77, ../compass/sass/style.scss */
 body .item #splash {
   color: white;
   text-align: center;
@@ -289,100 +291,100 @@ body .item #splash {
   width: 100vw;
   padding-top: 152px;
 }
-/* line 87, ../compass/sass/style.scss */
+/* line 89, ../compass/sass/style.scss */
 body .item #splash #splashText span {
   font-size: 20px;
 }
-/* line 90, ../compass/sass/style.scss */
+/* line 92, ../compass/sass/style.scss */
 body .item #splash #splashText h1 {
   margin-top: 4%;
 }
-/* line 93, ../compass/sass/style.scss */
+/* line 95, ../compass/sass/style.scss */
 body .item #splash #splashText h3 {
   margin-top: 2%;
 }
-/* line 96, ../compass/sass/style.scss */
+/* line 98, ../compass/sass/style.scss */
 body .item #splash #splashText h4 {
   margin-bottom: 3%;
 }
-/* line 99, ../compass/sass/style.scss */
+/* line 101, ../compass/sass/style.scss */
 body .item #splash #splashText p {
   margin-top: 2%;
 }
-/* line 106, ../compass/sass/style.scss */
+/* line 108, ../compass/sass/style.scss */
 body .container.Stats {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-/* line 109, ../compass/sass/style.scss */
+/* line 111, ../compass/sass/style.scss */
 body .container.Stats #nameText {
   padding-left: 1.75%;
   font-size: 28px;
 }
-/* line 113, ../compass/sass/style.scss */
+/* line 115, ../compass/sass/style.scss */
 body .container.Stats #timesPlayed {
   margin-left: -11.5%;
   font-size: 28px;
 }
-/* line 117, ../compass/sass/style.scss */
+/* line 119, ../compass/sass/style.scss */
 body .container.Stats #hrTag {
   margin-left: 27%;
   margin-top: -1%;
   margin-bottom: -1%;
   color: darkorange;
 }
-/* line 123, ../compass/sass/style.scss */
+/* line 125, ../compass/sass/style.scss */
 body .container.Stats .row {
   overflow: scroll;
 }
-/* line 127, ../compass/sass/style.scss */
+/* line 129, ../compass/sass/style.scss */
 body #stats {
   text-align: left;
   margin: 0.5% 0% 0.5% 0%;
   padding-left: 1%;
 }
-/* line 131, ../compass/sass/style.scss */
+/* line 133, ../compass/sass/style.scss */
 body #stats #songCount {
   margin-left: -6%;
 }
-/* line 135, ../compass/sass/style.scss */
+/* line 137, ../compass/sass/style.scss */
 body #welcomeName {
   margin-top: 5%;
   color: #777;
 }
-/* line 139, ../compass/sass/style.scss */
+/* line 141, ../compass/sass/style.scss */
 body .navbar {
   z-index: 100;
   margin-bottom: 0px;
   border-radius: 0px;
 }
-/* line 146, ../compass/sass/style.scss */
+/* line 148, ../compass/sass/style.scss */
 body .navbar .navbar-nav li a {
   color: darkorange;
 }
-/* line 152, ../compass/sass/style.scss */
+/* line 154, ../compass/sass/style.scss */
 body a {
   color: darkorange;
 }
-/* line 158, ../compass/sass/style.scss */
+/* line 160, ../compass/sass/style.scss */
 body #register-wrapper .register .form-group input {
   border-radius: 0px;
 }
-/* line 163, ../compass/sass/style.scss */
+/* line 165, ../compass/sass/style.scss */
 body #register-wrapper .register .button-holder button {
   border-radius: 0px;
   border-color: darkorange;
   background-color: darkorange;
 }
-/* line 172, ../compass/sass/style.scss */
+/* line 174, ../compass/sass/style.scss */
 body #login-wrapper #heading {
   text-align: center;
 }
-/* line 177, ../compass/sass/style.scss */
+/* line 179, ../compass/sass/style.scss */
 body #login-wrapper .login .form-group input {
   border-radius: 0px;
 }
-/* line 182, ../compass/sass/style.scss */
+/* line 184, ../compass/sass/style.scss */
 body #login-wrapper .login .button-holder button {
   border-color: darkorange;
   border-radius: 0px;
