@@ -21,9 +21,9 @@
 <body>	
 	<div id="total-wrapper">
 		<?php include('inc/nav.php') ?>
-		<div id="login-wrapper">
-			<h1 id="heading">Take a look at your PanicPast</h1>
-			<div class="login">
+		<div id="login-wrapper" >
+			<h1 class="col-md-6 col-md-offset-3" id="heading">Take a look at your PanicPast</h1>
+			<div class="login col-md-4 col-md-offset-4">
 				<h2 id="login-heading">Login</h2>
 				<form method='post' action='processlogin.php'>
 					<?php
@@ -33,14 +33,14 @@
 					?>
 					<div class="form-group">
 						<label>User Name</label>
-						<input type="text" class="form-control" placeholder="johndoe123" name="username" maxlength="11" required>
+						<input type="text" class="form-control" placeholder="JBSpreadHeadWSP" name="username" maxlength="11" required>
 					</div>
 					<div class="form-group">
 						<label>Password</label>
 						<input type="password" class="form-control" placeholder="At least 6 digits, letters and numbers" name="password" required>
 					</div>	
 					<div class="button-holder">
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<button type="submit" class="btn btn-primary btn-block">Submit</button>
 					</div>
 				</form>
 			</div>

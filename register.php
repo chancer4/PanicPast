@@ -18,13 +18,13 @@
 	<?php include('inc/head.php') ?>
 </head>
 <body>
+	<?php include('inc/nav.php') ?>
 	<div id="total-wrapper">	
-		<?php include('inc/header.php') ?>
-		<div id="register-wrapper">
-			<h1 id="heading">Panic Past</h1>
-			<div class="register">
+			<div id="register-wrapper">
+			
+			<div class="register col-md-4 col-md-offset-4">
 				<h2 id="register-heading">Register</h2>
-				<form method="post" action="processregister.php">
+				<form class="" method="post" action="processregister.php">
 					<div class="form-group">
 						<label>Name</label>
 						<?php
@@ -74,7 +74,7 @@
 						<input type="password" class="form-control" placeholder="Confirm Password" name="password2" required>
 					</div>
 					<div class="button-holder">
-						<button type="submit" class="btn btn-primary">Submit</button>
+						<button type="submit" class="btn btn-primary btn-block">Submit</button>
 					</div>
 				</form>
 			</div>

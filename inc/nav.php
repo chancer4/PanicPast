@@ -15,7 +15,7 @@
       </ul>
       <?php 
         if(isset($_SESSION['uid'])){
-          print '<ul class="nav navbar-nav navbar-right"><li>Welcome Back, ' . $_SESSION['name'] . '</li><li><a href="logout.php">Logout</a></li></ul>';
+          print '<ul class="nav navbar-nav navbar-right"><li id="welcomeName">Welcome Back, ' . $_SESSION['name'] . '</li><li><a href="logout.php">Logout</a></li></ul>';
         }else{
           print '<ul class="nav navbar-nav navbar-right"><li><a href="register.php">Register</a></li></ul>';
           print '<ul class="nav navbar-nav navbar-right"><li><a href="login.php">Login</a></li></ul>';

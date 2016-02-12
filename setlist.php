@@ -8,7 +8,7 @@
 
 	
 
-    for ($i = 1; $i <= $totalPages; $i++) {
+    for ($i = 1; $i <= 10; $i++) {
         $result = file_get_contents('http://api.setlist.fm/rest/0.1/artist/3797a6d0-7700-44bf-96fb-f44386bc9ab2/setlists.json?p='.$i); 
         $jsonResult = ($result);
         $phparray = json_decode($jsonResult);

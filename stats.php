@@ -5,10 +5,10 @@
 <body ng-controller="panicCtrl" ng-init="userSongs()">
 	<?php include('inc/nav.php') ?>
 
-	<div class="container">
+	<div class="container Stats" >
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3" ng-repeat="(song, number) in songs track by $index">
-				{{song}} {{number}}
+			<div id="stats" class="col-md-6 col-md-offset-3" ng-repeat="(song, number) in songs track by $index">
+				{{song}} - {{number}}
 				
 			</div>
 				

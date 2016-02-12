@@ -7,14 +7,19 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3" ng-repeat="sets in data">
-				<div class="col-md-12" ng-repeat="set in sets">
+			<label >Search:<input id="searchBox" type="text" ng-model="searchText" placeholder="Narrow it down"></label>
+		</div>
+		<div class="row A">
+			<div class="" ng-repeat="sets in data">
+				<div class="col-md-12 showRepeat" ng-repeat="set in sets | filter:searchText:strict">
+
 					Venue:  {{set.venue['@name']}} Date:  {{set['@eventDate']}} <input ng-model="idSet" ng-change="getId('{{set['@id']}}')" type="checkbox" ng-checked="inSetlist('{{set['@id']}}')">
 				</div>
 				
 			</div>
-				
 		</div>
+				
+		
 
 	</div>
 
