@@ -6,13 +6,13 @@
 	<?php include('inc/nav.php') ?>
 
 
-	 <?php 
+	<?php 
         if(isset($_SESSION['uid'])){
         	include('welcomeback.php');
         }else{
         	include('welcomesplash.php');
         }
-      ?>
+    ?>
 
 
 

@@ -15,8 +15,8 @@
           print '<li><a href="shows.php">Shows <span class="sr-only">(current)</span></a></li>';
           print '<li><a href="stats.php">Stats</a></li>';
         }else{
-          print '<li class="disabled"><a href="shows.php">Shows <span class="sr-only">(current)</span></a></li>';
-          print '<li class="disabled"><a href="stats.php">Stats</a></li>';
+          print '<li class="disabled"><a >Shows <span class="sr-only">(current)</span></a></li>';
+          print '<li class="disabled"><a >Stats</a></li>';
         }
       ?>
       </ul>

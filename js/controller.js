@@ -5,6 +5,11 @@ var userSetsArray = [];
 
 panicPast.controller('panicCtrl', function ($scope, $http){
 
+	$scope.do = function(){
+		$event.preventDefault();
+	}
+	
+
 	$http({
             url: 'getChecks.php',
             method: "GET",
